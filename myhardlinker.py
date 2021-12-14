@@ -1,3 +1,6 @@
+# myhardlinker v0.1
+# by valuxin
+# 2021
 import os
 import io
 import sys
