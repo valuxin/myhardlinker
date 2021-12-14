@@ -1,7 +1,7 @@
 # myhardlinker
 Crossplatform fast and robust Python utility to free space on the data volume by hardlinking duplicate files.
 # Usage
-<code>myhardlinker.py path-to-the-directory</code>
+<code>myhardlinker.py \<path-to-the-directory\></code>
 
 <code>myhardlinker.py C:\test</code> - this command recursevily scan deduplicate files in C:\test
 
