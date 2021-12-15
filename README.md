@@ -1,5 +1,9 @@
 # myhardlinker
 Crossplatform fast and robust Python utility to free space on the data volume by hardlinking duplicate files.
+# Requirments
+- Python 3.x
+- Modules: <code>pandas</code> <code>tqdm</code>
+- Minimum 512Mb free RAM for optimal perforamce, 1Gb is recommended
 # Usage
 <code>myhardlinker.py \<path-to-the-directory\></code>
 
