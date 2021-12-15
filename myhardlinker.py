@@ -9,10 +9,10 @@ import hashlib
 try:
     import pandas as pd
     from tqdm import tqdm
-except Exception as e:
+except ImportError:
     print('\nInstalling dependencies...')
     import pip
-    pip.main(['install pandas tqdm'])
+    pip.main(['install', 'pandas tqdm'])
     import pandas as pd
     from tqdm import tqdm
 
