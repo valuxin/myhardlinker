@@ -12,7 +12,7 @@ try:
 except ImportError:
     print('\nInstalling dependencies...')
     import pip
-    pip.main(['install', 'pandas tqdm'])
+    pip.main(['install', 'tqdm', 'pandas'])
     import pandas as pd
     from tqdm import tqdm
 
