@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
 def getmd5hash(file2hash):
     md5_object = hashlib.md5()
-    block_size = 128 * md5_object.block_size
+    block_size = 131072
     a_file = open(file2hash, 'rb')
     chunk = a_file.read(block_size)
     while chunk:
